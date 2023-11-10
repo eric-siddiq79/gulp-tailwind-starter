@@ -1,0 +1,18 @@
+/* containers.css */
+
+@layer utilities {
+
+    .container,
+    .container-sm,
+    .container-fluid {
+        @apply max-w-[1344px] px-5 mx-auto;
+    }
+
+    .container-sm {
+        @apply max-w-[1088px];
+    }
+
+    .container-fluid {
+        @apply max-w-full lg:px-11;
+    }
+}

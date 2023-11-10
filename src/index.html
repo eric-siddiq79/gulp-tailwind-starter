@@ -8,37 +8,50 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="../dist/css/style.css">
+
+		<link rel="stylesheet" href="https://use.typekit.net/wlo6viy.css">
+		<link rel="stylesheet" href="/assets/css/style.css">
 	</head>
 
 	<body>
-		<header class="header bg-blue-900 py-6">
+		<header class="header fixed top-0 z-[999] w-full py-6">
 			<div class="container-fluid flex items-center justify-between">
-				<a href="/">Logo</a>
+				<a href="/">
+					<img src="./assets/svgs/logo.svg" alt="Rowan">
+				</a>
 				<nav>
 					<ul class="flex items-center space-x-8">
-						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-300" href="#">What we do</a></li>
-						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-300" href="#">About</a></li>
-						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-300" href="#">Careers</a></li>
-						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-300" href="#">Careers</a></li>
-						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-300" href="#">Responsible Impact</a></li>
-						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-300" href="#">News</a></li>
+						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-400" href="#">What we do</a></li>
+						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-400" href="#">About</a></li>
+						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-400" href="#">Careers</a></li>
+						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-400" href="#">Careers</a></li>
+						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-400" href="#">Responsible Impact</a></li>
+						<li><a class="py-2 px-0.5 inline-block transition-all hover:text-green-400" href="#">News</a></li>
 						<li>
-							<button>search</button>
+							<button>
+								<img src="./assets/svgs/search.svg" alt="Search" width="24" height="24">
+							</button>
 						</li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 		<main class="main">
-			<section class="hero bg-blue-900 py-24 min-h-screen flex flex-col justify-center">
+			<section class="relative z-[1] overflow-hidden hero bg-blue-900 py-24 min-h-screen flex flex-col justify-center">
 				<div class="container">
-					<h1 class="mb-2 2xl:text-h1-xl">Transforming Data Center Delivery for Speed and Sustainability</h1>
-					<p class="mb-11">We rapidly deliver customized data center campuses with a focus on sustainability.</p>
-					<a class="btn btn-secondary border-white border 2xl:min-w-[472px]" href="#">EXPLORE LOCATIONS</a>
+					<h1 class="mb-2 text-36 lg:text-72 tk-loos-normal font-bold">Transforming Data Center Delivery for Speed and Sustainability</h1>
+					<p class="mb-11 font-light lg:text-38">We rapidly deliver customized data center campuses with a focus on sustainability.</p>
+					<a class="btn btn-secondary border-white border 2xl:min-w-[472px] text-green-400" href="#">EXPLORE LOCATIONS</a>
 				</div>
+				<picture class="absolute inset-0 -z-[1]">
+					<source media="(min-width: 576px)" srcset="./assets/images/transforming-data-center.jpg">
+					<source media="(max-width: 576px)" srcset="./assets/images/transforming-data-center.jpg">
+					<img src="./assets/images/transforming-data-center.jpg" alt="Transforming Data Center Delivery for Speed and Sustainability">
+				</picture>
 			</section>
+			<h1 class="text-28">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, distinctio.</h1>
 		</main>
 	</body>
+	<script src="./assets/js/bundle.js"></script>
 
 </html>

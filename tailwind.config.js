@@ -1,41 +1,49 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{html,js}"],
+	content: ['./src/**/*.html', './src/**/*.js', './**/*.php'],
+	media: false,
 	theme: {
 		extend: {
 			colors: {
 				dark: {
-					700: "#333333",
+					700: '#333333',
 				},
 				gray: {
-					200: "#00000081",
-					300: "#00000084",
+					200: '#00000081',
+					300: '#00000084',
 				},
 				blue: {
-					500: "#006CA0",
-					700: "#005A65",
-					800: "#003642",
-					900: "#003644",
+					500: '#006CA0',
+					700: '#005A65',
+					800: '#003642',
+					900: '#003644',
 				},
 				green: {
-					300: "#93BD82",
-					400: "#93BFB2",
+					300: '#93BD82',
+					400: '#93BFB2',
 				},
+
+				body: '#333333'
 			},
 
 			fontFamily: {
-				primary: ["Lato", "sans-serif"],
-				secondary: ["Lato", "sans-serif"],
+				primary: ['Lato', 'sans-serif'],
+				secondary: ['Loos', 'sans-serif'],
 			},
+			
 			fontSize: {
-				base: "1.375rem", // 22px
-				"h1-xl": "4.375rem", // 70px
-				h1: "3.75rem", // 60px
-				"h1-sm": "3.25rem", // 40px
-				h2: "3rem", //48px
-				"h2-sm": "2.25rem", //36px
+				18: '1.125rem', // 18px
+				base: '1.375rem', // 22px
+				28: '1.75rem', //28
+				30: '1.875rem', //30,
+				36: '2.25rem', //36
+				38: '2.375rem', //38
+				40: '3.25rem', //40
+				48: '3rem', //48
+				60: '3.75rem', //60
+				72: '4.5rem', //72
 			},
 		},
 	},
 	plugins: [],
-};
+}

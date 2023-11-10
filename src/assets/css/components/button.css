@@ -1,0 +1,16 @@
+/* buttons.css */
+
+@layer utilities {
+    .btn {
+      @apply p-6 flex w-fit h-20 items-center justify-center text-2xl font-bold font-secondary transition-all duration-200;
+
+      &-primary {
+        @apply bg-blue-500;
+      }
+
+      &-secondary {
+        @apply bg-blue-700 hover:bg-blue-700/90 text-green-400;
+      }
+    }
+  }
+  
