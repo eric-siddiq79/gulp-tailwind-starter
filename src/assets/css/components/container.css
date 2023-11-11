@@ -4,6 +4,7 @@
 
     .container,
     .container-sm,
+    .container-xl,
     .container-fluid,
     .container-xs {
         @apply max-w-[1344px] px-5 mx-auto;
@@ -15,6 +16,10 @@
 
     .container-xs {
         @apply max-w-[1008px];
+    }
+
+    .container-xl {
+        @apply max-w-[1680px];
     }
 
     .container-fluid {
