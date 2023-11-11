@@ -43,6 +43,12 @@ module.exports = {
 				60: '3.75rem', //60
 				72: '4.5rem', //72
 			},
+			zIndex: {
+				1: '1'
+			},
+			letterSpacing: {
+				'2.4' : '0.15rem'
+			}
 		},
 	},
 	plugins: [],

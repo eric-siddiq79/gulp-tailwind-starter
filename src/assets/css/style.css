@@ -41,7 +41,7 @@
     @apply absolute inset-0 -z-[1] flex;
 
     img {
-      @apply w-full;
+      @apply w-full object-cover;
     }
   }
 }
