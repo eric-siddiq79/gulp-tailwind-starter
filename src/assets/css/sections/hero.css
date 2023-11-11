@@ -8,4 +8,8 @@
         mix-blend-mode: multiply;
         opacity: 0.82;
     }
+
+    &-full-screen {
+        height: calc(100vh - 100px);
+    }
 }
