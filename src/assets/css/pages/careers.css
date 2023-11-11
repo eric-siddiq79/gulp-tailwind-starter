@@ -1,0 +1,7 @@
+.faq {
+    &__text {
+        a {
+            @apply text-blue-500;
+        }
+    }
+}
