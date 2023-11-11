@@ -1,6 +1,6 @@
 /* buttons.css */
 
-@layer utilities {
+@layer components {
     .btn {
       @apply p-6 flex w-fit h-20 items-center justify-center text-2xl font-bold font-secondary transition-all duration-200;
 

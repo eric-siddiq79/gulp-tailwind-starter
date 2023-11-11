@@ -4,12 +4,17 @@
 
     .container,
     .container-sm,
-    .container-fluid {
+    .container-fluid,
+    .container-xs {
         @apply max-w-[1344px] px-5 mx-auto;
     }
 
     .container-sm {
         @apply max-w-[1088px];
+    }
+
+    .container-xs {
+        @apply max-w-[1008px];
     }
 
     .container-fluid {

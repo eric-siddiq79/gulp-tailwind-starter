@@ -1,32 +1,48 @@
 /* style.css */
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Import your custom components */
 @import './components/button.css';
 @import './components/container.css';
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './pages/home.css';
 
 
 
 @layer base {
-	body {
-		@apply text-white font-primary text-[1.375rem];
-	}
+  body {
+    @apply text-white font-primary text-[1.375rem];
+  }
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		@apply font-secondary leading-none;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-secondary leading-none;
+  }
 
-	h1 {
-		@apply text-36 lg:text-72;
-	}
+  h1 {
+    @apply text-36 lg:text-72;
+  }
 
-	/* h2 {
-		@apply text-h2-sm lg:text-h2;
-	} */
+  h2 {
+    @apply lg:text-48;
+  }
 }
+
+
+@layer utilities {
+  .abs-bg {
+    @apply absolute inset-0 -z-[1] flex;
+
+    img {
+      @apply w-full;
+    }
+  }
+}
+
