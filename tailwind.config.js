@@ -19,21 +19,24 @@ module.exports = {
 					900: '#003644',
 				},
 				green: {
+					100: '#E5F0F5',
 					300: '#93BD82',
 					400: '#93BFB2',
 				},
 
-				body: '#333333'
+				body: '#333333',
+				primary: '#003644',
 			},
 
 			fontFamily: {
 				primary: ['Lato', 'sans-serif'],
-				secondary: ['Loos', 'sans-serif'],
+				secondary: ['loos-normal', 'sans-serif'],
 			},
 			
 			fontSize: {
 				18: '1.125rem', // 18px
 				base: '1.375rem', // 22px
+				24: '1.5rem', //24
 				28: '1.75rem', //28
 				30: '1.875rem', //30,
 				36: '2.25rem', //36

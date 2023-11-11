@@ -27,5 +27,7 @@
 		"webpack": "^5.67.0",
 		"webpack-stream": "^7.0.0"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"swiper": "^11.0.4"
+	}
 }

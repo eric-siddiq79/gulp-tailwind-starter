@@ -4,6 +4,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import '../../../node_modules/swiper/modules/navigation.scss';
+@import '../../../node_modules/swiper/swiper.scss';
 
 /* Import your custom components */
 @import './components/button.css';
@@ -13,36 +15,42 @@
 
 
 @layer base {
-  body {
-    @apply text-white font-primary text-[1.375rem];
-  }
+	body {
+		@apply text-body font-primary text-[1.375rem];
+	}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-secondary leading-none;
-  }
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-secondary leading-none;
+	}
 
-  h1 {
-    @apply text-36 lg:text-72;
-  }
+	h1 {
+		@apply text-36 lg:text-72;
+	}
 
-  h2 {
-    @apply lg:text-48;
-  }
+	h2 {
+		@apply lg:text-48;
+	}
+
+	h6 {
+		@apply text-24;
+	}
 }
 
 
 @layer utilities {
-  .abs-bg {
-    @apply absolute inset-0 -z-[1] flex;
+	.text-shadow {
+		text-shadow: 0px 3px 6px #00000084;
+	}
+	.abs-bg {
+		@apply absolute inset-0 -z-[1] flex;
 
-    img {
-      @apply w-full object-cover;
-    }
-  }
+		img {
+			@apply w-full object-cover;
+		}
+	}
 }
-
