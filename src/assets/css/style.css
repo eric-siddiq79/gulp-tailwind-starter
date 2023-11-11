@@ -36,7 +36,7 @@
 	}
 
 	h2 {
-		@apply lg:text-48;
+		@apply lg:text-48 font-bold;
 	}
 
 	h3 {

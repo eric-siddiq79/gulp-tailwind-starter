@@ -26,6 +26,7 @@ module.exports = {
 
 				body: '#333333',
 				primary: '#003644',
+				secondary: '#005A65',
 			},
 
 			fontFamily: {
