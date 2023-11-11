@@ -1,0 +1,9 @@
+.article {
+    &:nth-child(even)  {
+        @apply flex-row-reverse;
+
+        .max-w-\[620px\] {
+            @apply ml-auto text-right;
+        }
+    }
+}

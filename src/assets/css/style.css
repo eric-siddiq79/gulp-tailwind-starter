@@ -11,6 +11,7 @@
 @import './components/button.css';
 @import './components/container.css';
 @import './pages/home.css';
+@import './pages/approach.css';
 
 
 
@@ -25,7 +26,9 @@
 	h4,
 	h5,
 	h6 {
-		@apply font-secondary leading-none;
+		@apply font-secondary;
+
+		line-height: 1.105263157894737;
 	}
 
 	h1 {
@@ -34,6 +37,10 @@
 
 	h2 {
 		@apply lg:text-48;
+	}
+
+	h3 {
+		@apply lg:text-38;
 	}
 
 	h6 {
