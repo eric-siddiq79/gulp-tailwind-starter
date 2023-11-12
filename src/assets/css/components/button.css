@@ -6,7 +6,7 @@
       font-family: "loos-normal",sans-serif;
 
       &-primary {
-        @apply bg-blue-500;
+        @apply bg-blue-500 text-white;
       }
 
       &-secondary {
