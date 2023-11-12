@@ -59,96 +59,91 @@
 			<!-- ./End hero -->
 
 			<!-- Begin Portfolio -->
-			<section class="pt-[90px] pb-[130px] bg-primary border-t-[6px] border-[#D1CBC1] text-white">
+			<section class="pt-[90px] pb-[130px] bg-primary border-t-6 border-t-[#D1CBC1]  border-b-6 border-b-white  text-white">
 				<div class="container-fluid px-[90px]">
 					<div class="grid grid-cols-3 gap-10">
-						<div class="text-center">
+						<div class="relative text-center group">
 							<h2 class="text-[70px] mb-2 font-medium">300 MW</h2>
 							<h5 class="tk-loos-normal"><strong>CAPACITY</strong></h5>
+							<div class="absolute -top-[90px] inset-1/2 transform -translate-x-1/2 triangle hidden group-[.active]:block"></div>
 						</div>
-						<div class="text-center">
+						<div class="relative text-center group active">
 							<h2 class="text-[70px] mb-2">145 AC</h2>
 							<h5><strong>SIZE</strong></h5>
+							<div class="absolute -top-[90px] inset-1/2 transform -translate-x-1/2 triangle hidden group-[.active]:block"></div>
 						</div>
-						<div class="text-center">
+						<div class="relative text-center group">
 							<h2 class="text-[70px] mb-2">MARYLAND</h2>
 							<h5><strong>LOCATION</strong></h5>
+							<div class="absolute -top-[90px] inset-1/2 transform -translate-x-1/2 triangle hidden group-[.active]:block"></div>
 						</div>
 					</div>
 				</div>
 
-				<div class="mt-[124px] container">
-					<p class="text-28 leading-10 mt-6">Bauxite, located within the 2,000-acre development near Frederick, Maryland, is planned as an initial
-						multi-building 300 MW campus. Furthermore, the campus plan incorporates expansion, which will lead to a doubling of the building size
-						and an increase in power capacity to over 450MW. It boasts near-term power interconnection dates, competitive power pricing, a range of
-						fiber options, and water and wastewater infrastructure. With advantageous General/Light Industrial zoning in place, Bauxite is poised to
-						deliver the initial 300 MW by July 2025, providing a high value alternative to the congested Ashburn corridor.</p>
+				<div class="mt-[124px]">
+					<div>
+						<div class="container">
+							<p class="text-28 leading-10 mt-6">Bauxite, located within the 2,000-acre development near Frederick, Maryland, is planned as an
+								initial
+								multi-building 300 MW campus. Furthermore, the campus plan incorporates expansion, which will lead to a doubling of the building
+								size
+								and an increase in power capacity to over 450MW. It boasts near-term power interconnection dates, competitive power pricing, a
+								range of
+								fiber options, and water and wastewater infrastructure. With advantageous General/Light Industrial zoning in place, Bauxite is
+								poised to
+								deliver the initial 300 MW by July 2025, providing a high value alternative to the congested Ashburn corridor.</p>
+						</div>
+						<div class="mt-[100px] -mb-[74px]">
+							<div class="swiper portfolio" id="portoflio">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide portfolio__slide">
+										<img class="w-full object-cover" src="./assets/images/MAX_0011.jpg" alt="">
+									</div>
+									<div class="swiper-slide portfolio__slide">
+										<img class="w-full object-cover" src="./assets/images/MAX_0012.jpg" alt="">
+									</div>
+									<div class="swiper-slide portfolio__slide">
+										<img class="w-full object-cover" src="./assets/images/MAX_0013.jpg" alt="">
+									</div>
+									<div class="swiper-slide portfolio__slide">
+										<img class="w-full object-cover" src="./assets/images/MAX_0011.jpg" alt="">
+									</div>
+									<div class="swiper-slide portfolio__slide">
+										<img class="w-full object-cover" src="./assets/images/MAX_0012.jpg" alt="">
+									</div>
+									<div class="swiper-slide portfolio__slide">
+										<img class="w-full object-cover" src="./assets/images/MAX_0013.jpg" alt="">
+									</div>
+								</div>
+
+								<button class="absolute left-6 top-[50%] transform transform-translate-y-1/2 z-1 swiper-prev flex">
+									<img src="./assets/svgs/arrow-left.svg" alt="">
+								</button>
+								<button class="absolute right-6 top-[50%] transform transform-translate-y-1/2 z-1 swiper-next">
+									<img src="./assets/svgs/arrow-right.svg" alt="">
+								</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 			<!-- ./End Portoflio -->
 
-			<!-- Begin impact -->
-			<section class="mt-1.5 relative pt-[100px] pb-[117px] bg-secondary z-1 text-white text-28 leading-10">
-				<div class="container-xs">
-					<p><strong>Our meticulous approach involves the careful selection and development of data infrastructure in locations that are not just
-							optimal, but
-							strategic. These handpicked sites are chosen for their inherent advantages in connectivity, accessibility, and scalability. But
-							that’s
-							just the beginning. Beyond these prime locations, we go the extra mile by crafting custom-powered shells that align seamlessly with
-							your
-							operational needs. These shells are purpose-built to support your data center’s unique requirements, ensuring a foundation of
-							reliability and efficiency.</strong></p> <br>
-					<p>Rowan’s projects extend beyond data centers, aiming to enhance communities. Sustainability is at our core, with each project designed to
-						minimize ecological impact. We integrate renewables, prioritize energy efficiency, and champion a greener future. Our commitment to
-						creating value goes beyond technology, positively impacting communities and advancing sustainability.</p>
-				</div>
-			</section>
-			<!-- ./End impact -->
+			<!-- Begin quote -->
+			<div class="pt-[114px] pb-[124px] bg-secondary text-white">
+				<div class="container">
+					<h2 class="text-center font-light">What Community Leaders have to say</h2>
 
-			<!-- Begin blog -->
-			<section class="pt-[100px] pb-[100px]">
-				<div class="container max-w-[1470px]">
-					<h2 class="tk-loos-normal font-bold text-center">Latest News & Posts</h2>
-					<div class="mt-12 grid grid-cols-3 gap-5">
-						<div class="flex flex-col">
-							<div class="lg:h-[280]">
-								<a href="#">
-									<img class="w-full" src="./assets/images/blog-1.jpg" alt="Announcement">
-								</a>
-							</div>
-							<div class="pt-5">
-								<h6 class="lg:text-28 tk-loos-normal font-medium text-blue-700"><a href="#">Announcement</a></h6>
-								<p class="tk-loos-normal">Appointment of Sebastian Kurian to the Position of Chief Legal Officer</p>
-							</div>
-						</div>
-						<div class="flex flex-col">
-							<div class="lg:h-[280]">
-								<a href="#">
-									<img class="w-full" src="./assets/images/blog-2.jpg" alt="Announcement">
-								</a>
-							</div>
-							<div class="pt-5">
-								<h6 class="lg:text-28 tk-loos-normal font-medium text-blue-700"><a href="#">Announcement</a></h6>
-								<p class="tk-loos-normal">Rowan Digital Infrastructure Welcomes Charley Daitch</p>
-							</div>
-						</div>
-
-						<div class="flex flex-col">
-							<div class="lg:h-[280]">
-								<a href="#">
-									<img class="w-full" src="./assets/images/blog-3.jpg" alt="Announcement">
-								</a>
-							</div>
-							<div class="pt-5">
-								<h6 class="lg:text-28 tk-loos-normal font-medium text-blue-700"><a href="#">This is the title of your blog post</a></h6>
-								<p class="tk-loos-normal">Summary</p>
-							</div>
-						</div>
+					<div class="">
+						<blockquote>
+							<h5 class="font-medium text-black">We are affirmatively in support of the Rowan project given that it will reposition unfarmable land from a passive, unproductive
+								parcel into one that is economically beneficial to the community. This higher, better use creates an opportunity to expand our
+								economic base and diversify of our regional economy, strengthening our position as a great place to live and work.</h5>
+						</blockquote>
 					</div>
 				</div>
-
-			</section>
-			<!-- ./End blog -->
+			</div>
+			<!-- ./End quote -->
 
 			<!-- Cta -->
 			<section class="py-[146px] relative">

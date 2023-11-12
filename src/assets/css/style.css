@@ -7,6 +7,7 @@
 
 @import './components/button.css';
 @import './components/container.css';
+@import './components/triangle.css';
 
 
 @import './sections/hero.css';
@@ -14,6 +15,7 @@
 @import './pages/home.css';
 @import './pages/approach.css';
 @import './pages/careers.css';
+@import './pages/portfolio.css';
 
 
 

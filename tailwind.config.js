@@ -53,6 +53,9 @@ module.exports = {
 			},
 			letterSpacing: {
 				'2.4' : '0.15rem'
+			},
+			borderWidth: {
+				6: '0.375rem'
 			}
 		},
 	},
