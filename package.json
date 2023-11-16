@@ -28,6 +28,8 @@
 		"webpack-stream": "^7.0.0"
 	},
 	"dependencies": {
+		"gulp-sass": "^5.1.0",
+		"sass": "^1.69.5",
 		"swiper": "^11.0.4"
 	}
 }

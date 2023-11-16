@@ -1,5 +1,0 @@
-.portfolio {
-    &__slide {
-        @apply h-auto flex;
-    }
-}
